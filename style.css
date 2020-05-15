@@ -1,0 +1,71 @@
+body {
+    background-color:#c0c0c0;
+    
+}
+
+.formulario {
+    width: 25%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo{
+    background-color:#f85252;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+}
+
+.titulo i {
+    display: inline;
+}
+
+.titulo h1 {
+    display: inline;
+    color: white;
+    font-size: 25px;
+    font-family: inherit;
+    padding-left: 10px;
+}
+
+.cuerpo {
+    background-color: white;
+}
+
+input[type="email"], input[type="password"] {
+    background-color: rgb(238, 238, 238);
+    border: none;
+    padding: 8px;
+    width: 90%;
+}
+input::placeholder {
+    color: grey;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color:#33cd77;
+    color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.cuerpo {
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+}
+
+.cuerpo p {
+    color: grey;
+    font-size: 16px;
+
+}
+
+i{
+    color: white;
+}
